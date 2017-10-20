@@ -1,0 +1,20 @@
+.nav_children image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+.nav_children text {
+  font-size: 25rpx;
+  color: gray;
+}
+.nav_list {
+  margin: 20rpx 0;
+  border-bottom: 2rpx solid #e5e5e5;
+  text-align: center;
+}
+.nav_children {
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20rpx;
+  display: inline-block;
+}

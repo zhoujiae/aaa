@@ -1,0 +1,25 @@
+/* campusphotodetail.wxss */
+.container {
+  background: #e6e6e6;
+  overflow: hidden;
+}
+.photolist {
+  width: 95%;
+  margin: 20rpx auto;
+  background: white;
+}
+image {
+  width: 100%;
+  height: 500rpx;
+  vertical-align: top;
+}
+.title {
+  font-weight: bolder;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.text {
+  color: gray;
+  font-size: 30rpx;
+   padding: 20rpx 0;
+}

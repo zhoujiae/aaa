@@ -1,0 +1,106 @@
+@import "../../../style/swiper.wxss";
+@import "../../../style/navlist.wxss";
+.jszx_small {
+  width: 95%;
+  margin: 0 auto;
+}
+.jszx_title {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 30rpx;
+  color: gray;
+  font-weight: bold;
+  border-left: 8rpx solid #ffd101;
+  padding: 6rpx 0;
+}
+.jszx_title_small {
+  font-weight: bolder;
+  font-size: 30rpx;
+  text-align: center;
+  margin: 20rpx auto;
+}
+.jszx_img>image {
+  width: 100%;
+  height: 400rpx;
+}
+.jszx_artical {
+  font-size: 30rpx;
+  line-height: 50rpx;
+}
+.jszx_comment {
+  overflow: hidden;
+  font-size: 0;
+}
+.jszx_comment>image {
+  width: 30rpx;
+  height: 30rpx;
+  float: right;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.jszx_comment>text {
+  font-size: 30rpx;
+  color: gray;
+  float: right;
+  vertical-align: middle;
+}
+.jszx_type {
+  padding-bottom: 50rpx;
+  border-bottom: 2rpx solid #e5e5e5;
+}
+.right {
+  float: right;
+}
+
+
+
+.rqxm {
+  width: 95%;
+  margin: 30rpx auto;
+  font-size: 0;
+}
+.title {
+  /*font-size: 14px;*/
+  overflow:hidden;
+  font-weight: bolder;
+}
+.xueyuan_top_left {
+  float:left;
+  color:gray;
+  font-size:30rpx;
+  /*font-weight: bolder;*/
+  border-left:8rpx solid #ffd101;
+
+}
+
+.xueyuan_top_right {
+  float:right;
+  color:gray;
+  font-size:30rpx;
+  
+
+}
+.video {
+  width: 100%;
+}
+.myVideo {
+  width: 100%;
+  margin-top: 20rpx;
+}
+.headerRight {
+  padding: 20rpx 0;
+}
+.headerName {
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.headerTime {
+  display: block;
+  font-size: 24rpx;
+  color: gray;
+
+}
+.border {
+  margin-top: 10rpx;
+  border-bottom:1px solid gray;
+}

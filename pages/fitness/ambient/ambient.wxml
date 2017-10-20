@@ -1,0 +1,9 @@
+<view class="container">
+  <!--器材-->
+  <view class="show" wx:for="{{photogroup}}" bindtap="goDetial_photo" data-id="{{item.id}}">
+    <view class="jsqc_title color">{{item.name}}</view>
+    <view class="img">
+      <image src="{{item.img}}"></image>
+    </view>      
+  </view>
+</view>

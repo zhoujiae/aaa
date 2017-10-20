@@ -1,0 +1,14 @@
+
+<template name="swiper">
+  <!--导航列表-->
+    <view class="nav_list">
+      <view class="nav_children" wx:for="{{navlist}}" bindtap="goDetial">
+          <view>
+            <image src="{{item.img}}"></image>
+          </view>
+          <view >
+            <text>{{item.cont}}</text>
+          </view>
+      </view>  
+    </view>
+</template>

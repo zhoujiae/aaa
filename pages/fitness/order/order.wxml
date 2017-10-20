@@ -1,0 +1,22 @@
+<import src="../../../tem/swiper.wxml"/>
+<template is="swiper" data="{{list}}"></template>
+<import src="../../../tem/pre.wxml"/>
+<template is="prelist" data="{{getprelist}}"></template>
+<!--<view class="container">
+  <!--办卡类型-->
+  <!--<view class="order">
+    <view class="order_title">
+      <text>健身预约</text>
+    </view>
+    <view class="order_type" wx:for="{{ordertype}}">
+      <view class="order_type_small">
+        <view class="order_type_img">
+          <image src="{{item.img}}"></image>
+        </view>
+        <view class="order_type_make">
+          <button bindtap="go_predetail">立即预约</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>-->

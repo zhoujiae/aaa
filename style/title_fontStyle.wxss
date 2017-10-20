@@ -1,0 +1,17 @@
+.font_style {
+  color: gray;
+  font-size: 30rpx;
+  font-weight: bolder;
+}
+.xueyuan_top_left {
+  float: left;
+  color: gray;
+  font-size: 30rpx;
+  font-weight: bloder;
+}
+.xueyuan_top_right {
+  float: right;
+  color: gray;
+  font-size: 30rpx;
+  font-weight: bloder;
+}

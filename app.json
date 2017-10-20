@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/fitness/home/home",
+    "pages/fitness/home/video/video",
+    "pages/fitness/ambient/ambient",
+    "pages/fitness/pre/pre",
+    "pages/fitness/map/map",
+    "pages/logs/logs",
+    "pages/fitness/home/detail/artical/articaldetail/articaldetail",
+    "pages/fitness/home/detail/artical/artical",
+    "pages/fitness/home/detail/homearticallist/homearticallist",
+    "pages/fitness/home/detail/homearticallist/homearticaldetail/homearticaldetail",
+    "pages/fitness/ambient/detail/photo/photo",
+    "pages/fitness/pre/prelistdetail/prelistdetail",
+    "pages/fitness/pre/predetail/predetail",
+    "pages/fitness/map/tuoke/tuoke",
+    "pages/fitness/map/tuoke/award/award",
+    "pages/fitness/map/tuoke/customer/customer",
+    "pages/fitness/map/tuoke/customer/customerdetail/customerdetail",
+    "pages/fitness/map/tuoke/record/record",
+    "pages/fitness/map/tuoke/tuokeintro/tuokeintro"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffd101",
+    "navigationBarTitleText": "健身",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/fitness/home/home",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath": "pages/fitness/ambient/ambient",
+        "text": "环境",
+        "iconPath": "images/ambient.png",
+        "selectedIconPath": "images/ambient1.png"
+      },
+      {
+        "pagePath": "pages/fitness/pre/pre",
+        "text": "预约",
+        "iconPath": "images/order.png",
+        "selectedIconPath": "images/order1.png"
+      },
+      {
+        "pagePath": "pages/fitness/map/map",
+        "text": "位置",
+        "iconPath": "images/weizhi.png",
+        "selectedIconPath": "images/weizhi1.png"
+      }
+    ],
+    "color": "#c4c4c4",
+    "selectedColor": "#ffd101",
+    "backgroundColor": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

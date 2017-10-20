@@ -1,0 +1,13 @@
+<template name="user">
+  <view>
+    <view class="user">
+    <image src="{{user.bjimg}}" class="bj"></image>
+    <view class="user_up">
+      <image src="{{user.userimg}}"></image>
+      <view style="margin-top: 20rpx;">
+        <text class="username">{{user.username}}</text>
+      </view>
+    </view>
+  </view>
+  </view>
+</template>

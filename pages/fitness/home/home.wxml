@@ -1,0 +1,58 @@
+<import src="../../../tem/swiper.wxml"/>
+<template is="swiper" data="{{list}}"></template>
+<view class="container">
+    <!--分类列表-->
+    <view class="nav_list">
+      <view class="nav_children" wx:for="{{gettype}}" bindtap="goDetial_articallist" data-id="{{item.id}}">
+          <view>
+            <image src="{{item.img}}"></image>
+          </view>
+          <view >
+            <text>{{item.name}}</text>
+          </view>
+      </view>
+      <view class="nav_children" wx:for="{{prelist}}" bindtap="gopre">
+          <view>
+            <image src="{{item.img}}"></image>
+          </view>
+          <view >
+            <text>{{item.title}}</text>
+          </view>
+      </view>
+    </view>
+    <!--健身资讯-->
+    <view class="jszx">
+        <view class="jszx_title">
+          <text>健身头条</text>
+          <text class="right" bindtap="go_homearticallist">更多 ></text>
+        </view>
+        <view class="jszx_type" wx:for="{{articallist}}" bindtap="go_homearticallist">
+          <view class="jszx_small">
+            <view class="jszx_title_small"><text>{{item.title}}</text></view>
+            <view class="jszx_img"><image src="{{item.img}}"></image></view>
+            <view class="jszx_artical"><text>{{item.text}}</text></view>
+          </view>
+        </view>
+    </view>
+
+    <!--视频-->
+    <view class="rqxm" wx:if="{{videoList.length != 0  && videoList != null && videoList != false }}">
+     <view class="title">
+      <text class="font_style xueyuan_top_left">视频介绍</text>
+      <text class="font_style xueyuan_top_right" bindtap="goMoreVideo">更多 ></text>
+    </view>
+
+    <view class="video" wx:for="{{videoList}}">
+
+       <view class="headerRight">
+          <text class="headerName">{{item.video_name}}</text>
+          <text class="headerTime">{{item.addtime}}</text>
+      </view>
+      <video class="myVideo"  src="{{item.video_url}}"  controls="controls"  poster="{{item.img}}"></video>
+
+      <view class="border"></view>
+    
+    </view>
+  </view>
+
+</view>

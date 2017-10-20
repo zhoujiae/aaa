@@ -1,0 +1,22 @@
+.prelist {
+  width: 95%;
+  margin: 20rpx auto;
+  background: aliceblue;
+}
+.title {
+  text-align: center;
+  padding: 15rpx 0;
+}
+.img {
+  width: 100%;
+}
+image {
+  width: 100%;
+}
+button{
+  background: #ffd101;
+  color: white;
+}
+.btn {
+  background: white;
+}
